@@ -14,7 +14,7 @@ class ConfigurationException(Exception):
 
 def get_path():
     """Return path to where plotman.yaml configuration file should exist."""
-    return appdirs.user_config_dir("plotman") + "\plotman.yaml"
+    "D:\Mining\plotman.yaml"
 
 
 def read_configuration_text(config_path):
